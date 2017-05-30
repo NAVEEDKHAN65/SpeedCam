@@ -1,8 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 
-pir_sensor = 11
-piezo = 7
+pir_sensor = 7
+piezo = 11
 
 GPIO.setmode(GPIO.BOARD)
 
